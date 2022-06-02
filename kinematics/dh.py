@@ -133,8 +133,8 @@ if __name__ == "__main__":
     #   return flask.render_template('index.html')
         #flask.send_from_directory(app.root_path, '3D-Konfiguration.png', mimetype='image/png')
         return flask.send_from_directory(app.root_path, '3D-Konfiguration2.png', mimetype='image/png')
-    @app.route('/straight')
-    def straight():
+    @app.route('/direct')
+    def direct():
     #   return flask.render_template('index.html')
         #flask.send_from_directory(app.root_path, '3D-Konfiguration.png', mimetype='image/png')
         return flask.send_from_directory(app.root_path, '3D-Konfiguration3.png', mimetype='image/png')
